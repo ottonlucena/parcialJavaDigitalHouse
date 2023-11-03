@@ -1,0 +1,430 @@
+[2023-10-27 20:38:50] [ WARN ] [BD:30] Error de Sintaxis en sentencia SQL "[*])"
+Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-214]
+[2023-10-27 20:38:50] [ INFO ] [PacienteDAOH2:15] iniciando las operaciones de : 
+[2023-10-27 20:41:11] [ WARN ] [BD:31] Error de Sintaxis en sentencia SQL "INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As')[*]);"
+Syntax error in SQL statement "INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As')[*]);"; SQL statement:
+INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As')); [42000-214]
+[2023-10-27 20:41:11] [ INFO ] [PacienteDAOH2:15] iniciando las operaciones de : 
+[2023-10-27 20:42:18] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 20:42:18] [ INFO ] [PacienteDAOH2:15] iniciando las operaciones de : 
+[2023-10-27 20:43:39] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 20:43:39] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 20:43:39] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 21:05:35] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 21:05:35] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 21:05:35] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 21:48:06] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 21:48:07] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 21:48:07] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 21:48:07] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 21:48:07] [ ERROR] [OdontologoDAOH2:31] Parametro "#4" no está fijado
+Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [90012-224]
+[2023-10-27 21:50:41] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 21:50:41] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 21:50:41] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 21:50:41] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 21:50:41] [ INFO ] [OdontologoDAOH2:71] Ocurrio un error: Columna "1 123 OTTON LUCENA" no encontrada
+Column "1 123 OTTON LUCENA" not found [42122-224]
+[2023-10-27 21:52:17] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 21:52:17] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 21:52:17] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 21:52:17] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 21:52:18] [ ERROR] [OdontologoDAOH2:71] Ocurrio un error: Columna "123 OTTON LUCENA" no encontrada
+Column "123 OTTON LUCENA" not found [42122-224]
+[2023-10-27 21:56:17] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 21:56:17] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 21:56:17] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 21:56:17] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 21:56:17] [ ERROR] [OdontologoDAOH2:71] Ocurrio un error: Columna "124 OTTON LUCENA" no encontrada
+Column "124 OTTON LUCENA" not found [42122-224]
+[2023-10-27 22:00:27] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:00:27] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:00:27] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:00:27] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:00:27] [ INFO ] [OdontologoDAOH2:72] 0 1 123 OTTON
+[2023-10-27 22:01:42] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:01:42] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:01:42] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:01:43] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:01:43] [ INFO ] [OdontologoDAOH2:72] 1 123 OTTON
+[2023-10-27 22:02:11] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:02:11] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:02:11] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:02:11] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:02:12] [ INFO ] [OdontologoDAOH2:72] 1 123
+[2023-10-27 22:03:12] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:03:12] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:03:12] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:03:13] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:03:13] [ INFO ] [OdontologoDAOH2:72] 0 123
+[2023-10-27 22:09:11] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:09:11] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:09:11] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:09:12] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:09:12] [ ERROR] [OdontologoDAOH2:78] Ocurrio un error: Valor Invalido "1" para el parametro "columnIndex"
+Invalid value "1" for parameter "columnIndex" [90008-224]
+[2023-10-27 22:11:58] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:11:58] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:11:58] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:11:58] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:11:59] [ ERROR] [OdontologoDAOH2:78] Ocurrio un error: Valor Invalido "1" para el parametro "columnIndex"
+Invalid value "1" for parameter "columnIndex" [90008-224]
+[2023-10-27 22:12:25] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:12:25] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:12:25] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:12:25] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:12:25] [ INFO ] [OdontologoDAOH2:73] 0 123
+[2023-10-27 22:13:12] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:13:12] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:13:12] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:13:12] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:13:13] [ INFO ] [OdontologoDAOH2:73] 1 OTTON
+[2023-10-27 22:14:02] [ INFO ] [BD:28] datos cargados con exito
+[2023-10-27 22:14:02] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-10-27 22:14:02] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-10-27 22:14:03] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:14:03] [ INFO ] [OdontologoDAOH2:73] 1  123 OTTON LUCENA
+[2023-10-27 22:28:13] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:28:14] [ INFO ] [OdontologoDAOH2:73] 1  123 OTTON LUCENA
+[2023-10-27 22:28:14] [ INFO ] [OdontologoDAOH2:73] 2  1234 OTTON LUCENA
+[2023-10-27 22:48:54] [ INFO ] [OdontologoDAOH2:17] Iniciando guardado: 
+[2023-10-27 22:48:55] [ INFO ] [OdontologoDAOH2:39] Guardado con exito.
+[2023-10-27 22:48:55] [ INFO ] [OdontologoDAOH2:61] Buscando lista Odontologos: 
+[2023-10-27 22:48:55] [ INFO ] [OdontologoDAOH2:75] 1  123 OTTON LUCENA
+[2023-10-27 22:48:55] [ INFO ] [OdontologoDAOH2:75] 2  1234 OTTON LUCENA
+[2023-10-27 22:48:55] [ INFO ] [OdontologoDAOH2:75] 3  1234 OTTON LUCENA
+[2023-10-27 22:48:55] [ INFO ] [OdontologoDAOH2:87] Lista encontrada: 
+[2023-11-01 14:01:27] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 14:01:27] [ INFO ] [PacienteDAOH2:15] guardando paciente
+[2023-11-01 14:01:28] [ INFO ] [PacienteDAOH2:32]  paciente guardado
+[2023-11-01 14:03:45] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 14:05:05] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 14:05:05] [ INFO ] [OdontologoDAOMemoria:22] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='OTTON', apellido='LUCENA'}
+[2023-11-01 14:07:56] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 14:07:56] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='OTTON', apellido='LUCENA'}
+[2023-11-01 16:57:04] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 16:57:04] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='OTTON', apellido='LUCENA'}
+[2023-11-01 16:59:08] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 16:59:08] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='OTTON', apellido='LUCENA'}
+[2023-11-01 16:59:32] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 16:59:32] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='OTTON', apellido='LUCENA'}
+[2023-11-01 17:02:12] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:02:12] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:02:31] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:02:31] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:03:01] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:03:01] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:04:01] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:04:01] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:06:00] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:06:00] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:07:25] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:07:26] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:08:49] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:08:50] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:09:06] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:09:06] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:14:05] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:14:06] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:14:30] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:14:30] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:14:56] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:14:57] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:18:08] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:18:08] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:18:45] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:18:45] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:18:45] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=2, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:19:12] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:19:12] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:19:12] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=2, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:24:17] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:24:17] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:24:17] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=2, numeroMatricula=123, nombre='Jose', apellido='Lucena'}
+[2023-11-01 17:25:28] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-01 17:25:28] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=1, numeroMatricula=123, nombre='Otton', apellido='Lucena'}
+[2023-11-01 17:25:28] [ INFO ] [OdontologoDAOMemoria:23] Se guardo correctamente: Odontologo{id=2, numeroMatricula=123, nombre='Jose', apellido='Lucena'}
+[2023-11-02 16:23:14] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:23:14] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por 1
+[2023-11-02 16:23:15] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:24:06] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:24:06] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por 1
+[2023-11-02 16:24:06] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:24:35] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:24:35] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:24:35] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:24:35] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por 1
+[2023-11-02 16:24:35] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:25:03] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:25:03] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:25:03] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:25:03] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:25:03] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:25:03] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por 2
+[2023-11-02 16:25:03] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:25:44] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:25:44] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:25:44] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:25:44] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:25:45] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:25:45] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por 2
+[2023-11-02 16:25:45] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:27:44] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:27:44] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:27:44] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:27:44] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:27:45] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:27:45] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 2
+[2023-11-02 16:27:45] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:28:08] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:28:08] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:28:08] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:28:08] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:28:09] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:28:09] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 2
+[2023-11-02 16:28:09] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:28:24] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:28:24] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:28:24] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:28:24] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:28:24] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:28:24] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 16:28:24] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:43:49] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:43:50] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 16:43:50] [ WARN ] [OdontologoDAOH2:89] Ocurrio un error: Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-224]
+[2023-11-02 16:44:29] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:44:30] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:44:30] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:44:30] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:44:30] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:44:30] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 16:44:30] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:44:31] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 16:45:54] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:45:54] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:109] Buscando lista Odontologos: 
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:123] 1  123 Otton Lucena
+[2023-11-02 16:45:55] [ INFO ] [OdontologoDAOH2:123] 2  123 Jose Lucena
+[2023-11-02 16:45:56] [ INFO ] [OdontologoDAOH2:135] Lista encontrada: 
+[2023-11-02 16:45:56] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 16:45:56] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 16:45:56] [ INFO ] [OdontologoDAOH2:109] Buscando lista Odontologos: 
+[2023-11-02 16:45:56] [ INFO ] [OdontologoDAOH2:123] 1  123 Otton Lucena
+[2023-11-02 16:45:56] [ INFO ] [OdontologoDAOH2:135] Lista encontrada: 
+[2023-11-02 16:52:57] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 16:52:57] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:52:57] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:52:57] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 16:52:57] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 16:52:57] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:109] Buscando lista Odontologos: 
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:121] Lista encontrada: 
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:123] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:123] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:135] Lista mostrada
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:109] Buscando lista Odontologos: 
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:121] Lista encontrada: 
+[2023-11-02 16:52:58] [ INFO ] [OdontologoDAOH2:123] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 16:52:59] [ INFO ] [OdontologoDAOH2:135] Lista mostrada
+[2023-11-02 21:43:15] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:43:15] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:43:15] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:43:15] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:43:15] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:43:15] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:43:15] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:43:16] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:43:17] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:43:17] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:43:17] [ WARN ] [OdontologoDAOH2:120] Valor Invalido "4" para el parametro "parameterIndex"
+Invalid value "4" for parameter "parameterIndex" [90008-224]
+[2023-11-02 21:44:19] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:44:19] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:44:19] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:44:19] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:44:20] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:44:21] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:44:21] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:44:21] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:44:21] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:44:21] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:44:21] [ INFO ] [OdontologoDAOH2:115] Se actualizó el odontólogo con ID: 1
+[2023-11-02 21:47:56] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:47:56] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:47:57] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:47:58] [ INFO ] [OdontologoDAOH2:115] Se actualizó el odontólogo con ID: 1
+[2023-11-02 21:48:29] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:48:29] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:48:30] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:115] Se actualizó el odontólogo con ID: 1
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:48:31] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Jese apellido: pppp
+[2023-11-02 21:48:32] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:10] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:49:10] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:49:10] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:49:10] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:49:10] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:49:10] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:49:10] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:11] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:117] No se encontró el odontólogo con ID: 3
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:12] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:36] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:49:37] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:49:37] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:49:37] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:49:37] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:49:37] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:49:37] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:49:38] [ INFO ] [OdontologoDAOH2:117] No se encontró el odontólogo con ID: 0
+[2023-11-02 21:49:39] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:39] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:39] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:39] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:55] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:49:55] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:49:55] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:49:55] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 2
+[2023-11-02 21:49:56] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:117] No se encontró el odontólogo con ID: 2
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:49:57] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:50:45] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-02 21:50:45] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:18] Iniciando guardado: 
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:40] Guardado con exito.
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:47] Iniciando buscar por el id número: 4
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:62] terminado el buscar
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:50:46] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:80] Iniciando proceso de eliminado al id número: 3
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:88] Odontologo eliminado
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jose apellido: Lucena
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:104] Iniciando actualización
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:115] Se actualizó el odontólogo con ID: 2
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:135] Buscando lista Odontologos
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:147] Lista encontrada: 
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:149] id: 1  matricula: 123 nombre: Otton apellido: Lucena
+[2023-11-02 21:50:47] [ INFO ] [OdontologoDAOH2:149] id: 2  matricula: 123 nombre: Jese apellido: pppp
+[2023-11-02 21:50:48] [ INFO ] [OdontologoDAOH2:161] Lista mostrada
